@@ -1,0 +1,44 @@
+body {
+    font-family: Constantia;
+    background-color: MediumAquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img {
+    border: 5px solid SeaGreen;
+}
+
+iframe:hover {
+    width: 430px;
+    height: 330px;
+    border: 7px dotted SeaGreen;
+    transition: all 1s linear;
+}
+
+.hh {
+    background-image: linear-gradient(to right,green,yellow);
+}
+
+footer {
+    background-image: linear-gradient(to right,yellow,green);
+}
+
+.rekl {
+    position: fixed;
+    right: 0px;
+    top: 220px;
+    background-color: DodgerBlue;
+    width: 120px;
+    height: 350px;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 30px;
+}
+
+.hh:hover {
+    text-decoration: dotted underline rgb(182, 105, 105);
+}
